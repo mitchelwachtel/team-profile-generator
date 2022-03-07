@@ -36,3 +36,13 @@ describe("Email", () => {
     expect(man.getEmail()).toBe("jack@yahoo.com");
   });
 });
+
+describe("OfficeNumber", () => {
+  it("Office Number of manager is returned by getOfficeNumber", () => {
+    const man = new Manager("Jack", "12", "jack@gmail.com", "103");
+    expect(man.getOfficeNumber()).toBe("103");
+
+    man.officeNumber = "203";
+    expect(man.getOfficeNumber()).toBe("203");
+  });
+});
