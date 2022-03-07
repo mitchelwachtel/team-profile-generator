@@ -1,37 +1,40 @@
 .cards-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
   padding: 0px;
   width: 25%;
-  margin: 10px;
+  margin: 15px;
+  border: 1px solid black;
+  box-shadow: 5px 9px 3px rgb(44, 43, 43);
 }
 
 .navbar {
-    
-    background: linear-gradient(30deg, #c1c1c4, #922119);
+  background: linear-gradient(30deg, #f8f8fa, #922119);
+  
 }
 
 .h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
-    font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 .card-header {
-    background: linear-gradient(30deg, #c1c1c4, #922119);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
-    font-size: 25px;
-    border-bottom: 3px solid black;
+  background: linear-gradient(30deg, #f8f8fa, #922119);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  border-bottom: 3px solid black;
 }
 
-li {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-weight: 900;
-    font-size: 16px;
+ul li {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  border: 1px solid black;
 }
