@@ -33,15 +33,13 @@ Technologies used: node.js, npm, dependencies: 'inquirer' and 'jest' and 'fs', V
 ### Usage
 The application will run through a series of questions in your terminal. Answer them thoroughly in order for the team-profile.html file to be completed fully. The team-profile.html file will be created in the folder "dist" and will be set up to link to a style.css file also in the dist directory. You can rename this html file when moved to your repository, but don't forget to move the style.css file as well.
 
-Watch *[this video](https://youtu.be/azwPOmFgYhM)* to see the how using this app works.
+Watch *[this video](https://youtu.be/CRoKs6XVQcE)* to see the how using this app works.
+
+![Tests pass](./assets/images/tests.png)
 
 ![Input examples](./assets/images/inputs.png)
 
-![Console Response](./assets/images/console-response.png)
-
-![generated markdown pt1](./assets/images/md1.png)
-
-![generated markdown pt2](./assets/images/md2.png)
+![generated & deployed HTML](./assets/images/generatedHTML.png)
 
 ---
 ---
