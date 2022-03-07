@@ -1,5 +1,8 @@
 const Manager = require("../lib/Manager");
 
+// In this test file, we are testing the methods on any instance of the Employee class
+
+// Testing .getRole method
 describe("Role", () => {
   it("Role of manager is returned by getRole", () => {
     const man = new Manager("Jack", "12", "jack@gmail.com", "103");
@@ -7,6 +10,7 @@ describe("Role", () => {
   });
 });
 
+// Testing .getName method
 describe("Name", () => {
   it("Name of manager is returned by getName", () => {
     const man = new Manager("Jack", "12", "jack@gmail.com", "103");
@@ -17,6 +21,7 @@ describe("Name", () => {
   });
 });
 
+// Testing .getId method
 describe("ID", () => {
   it("Id of manager is returned by getId", () => {
     const man = new Manager("Jack", "12", "jack@gmail.com", "103");
@@ -27,6 +32,7 @@ describe("ID", () => {
   });
 });
 
+// Testing .getEmail method
 describe("Email", () => {
   it("Email of manager is returned by getEmail", () => {
     const man = new Manager("Jack", "12", "jack@gmail.com", "103");
@@ -37,6 +43,7 @@ describe("Email", () => {
   });
 });
 
+// Testing .getOfficeNumber method
 describe("OfficeNumber", () => {
   it("Office Number of manager is returned by getOfficeNumber", () => {
     const man = new Manager("Jack", "12", "jack@gmail.com", "103");

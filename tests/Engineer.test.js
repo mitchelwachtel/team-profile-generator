@@ -1,5 +1,8 @@
 const Engineer = require("../lib/Engineer");
 
+// In this test file, we are testing the methods on any instance of the Engineer class
+
+// Testing .getGithub method
 describe("github", () => {
   it("Github username of engineer is returned by getGithub", () => {
     const eng = new Engineer("Jack", "12", "jack@gmail.com", "jackjackson");
@@ -10,6 +13,7 @@ describe("github", () => {
   });
 });
 
+// Testing .getRole method
 describe("Role", () => {
   it("Role of engineer is returned by getRole", () => {
     const eng = new Engineer("Jack", "12", "jack@gmail.com", "jackjackson");
@@ -17,6 +21,7 @@ describe("Role", () => {
   });
 });
 
+// Testing .getName method
 describe("Name", () => {
   it("Name of engineer is returned by getName", () => {
     const eng = new Engineer("Jack", "12", "jack@gmail.com", "jackjackson");
@@ -27,6 +32,7 @@ describe("Name", () => {
   });
 });
 
+// Testing .getId method
 describe("Id", () => {
   it("Id of engineer is returned by getId", () => {
     const eng = new Engineer("Jack", "12", "jack@gmail.com", "jackjackson");
@@ -37,6 +43,7 @@ describe("Id", () => {
   });
 });
 
+// Testing .getEmail method
 describe("Email", () => {
   it("Email of engineer is returned by getEmail", () => {
     const eng = new Engineer("Jack", "12", "jack@gmail.com", "jackjackson");
